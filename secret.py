@@ -50,6 +50,7 @@ while True:
         message = get_message()
         encrypted = encrypt(message)
         messagebox.showinfo('Ciphertext of the secret message is:', encrypted)
+        print(encrypted)
     elif task == 'decrypt':
         message = get_message()
         decrypted = decrypt(message)
