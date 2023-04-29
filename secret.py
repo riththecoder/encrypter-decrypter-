@@ -55,6 +55,7 @@ while True:
         message = get_message()
         decrypted = decrypt(message)
         messagebox.showinfo('Plaintext of the secret message is:', decrypted)
+        print(message)
     else:
         break
 root.mainloop()
